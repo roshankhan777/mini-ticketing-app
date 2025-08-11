@@ -30,11 +30,12 @@ TicketCounter.jsx
 # Installation & Setup
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/mini-ticketing-app.git
+git clone https://github.com/roshankhan777/mini-ticketing-app.git
 cd mini-ticketing-app
 
 # 2. Install dependencies
 npm install
+npm install @mui/material @emotion/react @emotion/styled
 
 # 3. Run the app
 npm run dev
