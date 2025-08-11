@@ -1,12 +1,41 @@
-# React + Vite
+# Mini Ticketing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application for creating, viewing, and searching support tickets.
 
-Currently, two official plugins are available:
+# Features
+- **Create Ticket Form**: Add title, description, and priority.
+- **Ticket List View**: Displays all submitted tickets with auto-update.
+- **Search Bar**: Filters tickets by keyword in title or description.
+- **Ticket Counter**: Shows the number of open tickets.
+- **Reusable Components**: Form, List, Item, Search, Counter.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tech Stack
+- React (Vite)
+- JavaScript (ES6+)
+- Material UI
 
-## Expanding the ESLint configuration
+# Folder Structure
+src/
+App.jsx
+main.jsx
+index.css
+components/
+TicketForm.jsx
+TicketList.jsx
+TicketItem.jsx
+SearchBar.jsx
+TicketCounter.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# Installation & Setup
+```bash
+# 1. Clone the repo
+git clone https://github.com/roshankhan777/mini-ticketing-app.git
+cd mini-ticketing-app
+
+# 2. Install dependencies
+npm install
+npm install @mui/material @emotion/react @emotion/styled
+
+# 3. Run the app
+npm run dev
